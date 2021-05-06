@@ -1,5 +1,5 @@
-
 body{
+    font-family: 'Nanum Gothic', sans-serif;
     height: 100vh;
     display:flex;
     margin: 0;
@@ -24,14 +24,66 @@ body{
     position: absolute;
     margin: 13px 13px;
     top: 0; left: 0; right: 0; bottom: 0;
-    border: 2px #ffffff dashed;
+    border: 1px #f0f0f0 dashed;
     border-radius: 8px;
 }
 
 .page{
     position: absolute;
+    display: flex;
+    flex-direction: row;
     margin: 8px 8px;
+    padding: 10px 10px;
     top: 0; left: 0; right: 0; bottom: 0;
-    background-color: #ffffff;
+    background-color: #EEEEEE;
     border-radius: 8px;
+}
+
+.profile_wrapper{
+    flex: 0.25;
+}
+
+.content_wrapper{
+    flex: 0.65;
+    margin-left: 5px;
+}
+
+.menu_wrapper{
+    flex: 0.1;
+    border: 1px #636363 solid;
+
+}
+
+.profile_wrapper, .content_wrapper, .menu_wrapper{
+    display: flex;
+    flex-direction: column;
+    padding: 2px 5px;
+}
+
+.profile_top, .content_top{
+    display: flex;
+    flex : 0.07;
+    align-items: center;
+    color: #636363;
+}
+
+.profile_top{
+    font-size: 13px;
+    justify-content: center;
+}
+
+.content_top{
+    font-size: 15px;
+    justify-content: space-between;
+}
+
+.content{
+    flex: 0.93;
+    background-color: #ffffff;
+    border: 1px #d4d4d4 solid;
+    border-radius: 7px;
+}
+
+.today{
+    color: red;
 }

@@ -1,0 +1,133 @@
+<!-- diary.html -->
+
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <title>2021 MINI HOMEPAGE</title>
+    <link rel="stylesheet" href="./static/font.css" />
+    <link rel="stylesheet" href="./static/layout.css" />
+    <link rel="stylesheet" href="./static/diary.css" />
+    <script src="https://kit.fontawesome.com/07b14ca1f0.js" crossorigin="anonymous"></script>
+    <script src="./static/diary.js"></script>
+  </head>
+  <body>
+    <div class="bookcover">
+      <div class="bookdot">
+        <div class="page">
+          <div class="profile_wrapper">
+            <div class="profile_top">
+              <span class="hit">TODAY <span class="today">28</span> | TOTAL 2349</span>
+            </div>
+            <div class="profile_content">
+              <div class="profile">
+                <img src="./static/images/profile.png" alt="">
+              </div>
+              <div class="introduce">
+                난 슬플 땐 힙합을 춰,,, <br/>ヽ｀ヽ｀、ヽヽ｀ヽ、ヽ｀ヽ、ヽヽ｀、ヽ、ヽ<br />ዽ ጿ ኈ ቼ ዽ ጿ ኈ ቼ ዽ
+              </div>
+              <div class="settings">
+                <div class="editBtn"><span class="profileBtn">‣</span>EDIT</div>
+                <div class="historyBtn"><span class="profileBtn">‣</span>HISTORY</div>
+              </div>
+              <div class="divider"></div>
+              <div class="name">김도람 <span class="gender">(♀︎)</span></div>
+              <ul id="dropdown">
+                <li>파도 타기<span>▾</span></li>
+                  <ul id="dropdown_row">
+                    <li><a href="https://cafe.naver.com/codeuniv/" target="_blank">코뮤니티로 가기</a></li>
+                    <li><a href="https://www.instagram.com/coding_comu/" target="_blank">인스타그램으로 가기</a></li>
+                  </ul>
+              <ul>
+            </div>
+          </div>
+
+          <div class="content_wrapper">
+            <div class="content_top">
+              <span class="page_title">김도람의 미니홈피</span>
+              <span class="page_url">https://url주소.나중에입력</span>
+            </div>
+
+            <div class="main_content">
+                <div class="calendar">
+                    <div class="today">05.13<br />THU</div>
+                    <div class="days">
+                        <div class="saturday">1</div> <div class="sunday">2</div> <div>3</div> <div>4</div><div>5</div> <div>6</div> <div>7</div> 
+                        <div class="saturday">8</div> <div class="sunday">9</div><div>10</div> <div>11</div> <div>12</div> <div>13</div> <div>14</div>
+                        <div class="saturday">15</div> <div class="sunday">16</div> <div>17</div> <div>18</div> <div>19</div><div>20</div> <div>21</div> 
+                        <div class="saturday">22</div> <div class="sunday">23</div> <div>24</div><div>25</div> <div>26</div> <div>27</div> <div>28</div> 
+                        <div class="saturday">29</div><div class="sunday">30</div> <div>31</div>
+                    </div>
+                </div>
+                
+                <div class="diarys">
+                    <div class="diary_card">
+                        <div class="updated_at">2017.05.13 목 12:56</div>
+                        <div class="diary_content">
+                            <div class="description">
+                                오늘은 모각코 11일차 ᕕ( ᐛ )ᕗ<br/><br/>
+                                생각보다 시간이 빠르게 갔다.<br/>
+                                아직 많이 부족하지만 CSS를 조금은 다룰 수 있게 된 것 같고,<br/>
+                                매일 코딩을 하는 습관이 자리 잡은 것 같아서 뿌듯하다.<br/><br/>
+                                앞으로도 꾸준하게 열심히 해야겠다!
+                            </div>
+                        </div>
+                    </div>
+    
+                    <div class="diary_card">
+                        <div class="updated_at">2017.05.12 수 23:20</div>
+                        <div class="diary_content">
+                            <div class="description">
+                                "왜 울었는데..."<br/><br/>
+                                "양파 썰다가."<br/><br/>
+                                "왜 울었냐고."<br/><br/>
+                                "양파 때문이라고 대답했어."<br/><br/>
+                                "...내가 양파냐..."<br/><br/>
+                            </div>
+                        </div>
+                    </div>
+    
+                    <div class="diary_card">
+                        <div class="updated_at">2017.05.10 월 02:32</div>
+                        <div class="diary_content">
+                            <div class="description italic">
+                                학생이라는 죄로<br/>
+                                <br/>학교라는 교도소에서<br/>
+                                <br/>교실이라는 감옥에 갇혀<br/>
+                                <br/>출석부라는 죄수명단에 올라<br/>
+                                <br/>교복이란 죄수복을 입고<br/>
+                                <br/>공부란 벌을 받고<br/>
+                                <br/>졸업이란 석방을 기다린다...<br/>
+                            </div>
+                        </div>
+                    </div>
+    
+                    <div class="hidden_diary">
+                        <span onclick="hiddenClicked()"><i class="fas fa-lock"></i> 도람의 비밀일기 보기</span> 
+                        <div class="diary_card" id="hidden_diary_card">
+                          <div class="updated_at">도람의 비밀일기</div>
+                          <div class="diary_content">
+                              <div class="description" id="hidden_diary_text">
+                                  
+                              </div>
+                          </div>
+                      </div>
+                    </div>
+                </div>
+                
+            </div>
+          </div>
+
+          <div class="menu_wrapper">
+            <div class="spacer"></div>
+            <a href="./home.html" class="menus">홈</a>
+            <a href="./diary.html" class="menus">다이어리</a>
+            <a href="./photo.html" class="menus">사진첩</a>
+            <a href="#" class="menus">방명록</a>
+          </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

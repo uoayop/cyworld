@@ -1,0 +1,75 @@
+/* visitor.css */
+
+.main_content{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    height: 100%;
+    overflow: auto;
+    font-family: 'DungGeunMo';
+}
+
+.visitor_card{
+    width: 100%;
+    margin-bottom: 30px;
+}
+
+.visitor_card:last-child{
+    margin-bottom: 0px;
+}
+
+.visitor_title{
+    display: flex;
+    align-items: baseline;
+    padding: 10px 10px;
+    font-size: 13px;
+    background-color: #d6d6d6;
+}
+
+.visitor_name{
+    color: #3450eb;
+}
+
+.visitor_name, .visitor_homepage{
+    cursor: pointer;
+}
+
+.visitor_title > span, i{
+    margin-right: 5px;
+}
+
+.visitor_date{
+    font-size: 11px;
+}
+
+.visitor_content{
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+    margin: 20px 0px;
+}
+
+.visitor_content .photo{
+    width: 100px;    
+    background-size: contain;
+    border: 1px dashed #8a8a8a;
+    border-radius: 5px;
+}
+
+.visitor_content #visitor1{
+    background-image: url('./images/background1.png');
+}
+
+.visitor_content #visitor2{
+    background-image: url('./images/background2.png');
+}
+
+.visitor_content #visitor3{
+    background-image: url('./images/background3.png');
+}
+
+.visitor_content .description{
+    padding: 5px 15px;
+    font-size: 13px;
+    align-self: center;
+}

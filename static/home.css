@@ -3,8 +3,8 @@
 .main_content .content_title{
     color:#5681a7;
     font-weight: bold;
-    font-size: 14px;
-    font-family: 'KOTRA_BOLD-Bold';
+    font-size: 17px;
+    font-family: 'DungGeunMo';
 }
 
 .main_content .news_wrapper{
@@ -19,7 +19,7 @@
     font-size: 12px;
 }
 .main_content .newsFrom {
-    padding: 1.5px 5px;
+    padding: 2px 4px 1.5px 4px;
     color: #ffffff;
     border-radius: 3px;
     margin-right: 5px;

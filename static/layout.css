@@ -14,7 +14,7 @@ body{font-family: 'S-CoreDream-3Light', sans-serif;
 .bookcover{
     width: 800px; height: 500px;
     position: relative;
-    background-color: #dadada;
+    background-color: #cccbcb;
     border: 1px #768488 solid;
     border-radius: 8px;
     box-shadow: 1px 1px 1px 2px rgba(1,1,1,0.1);
